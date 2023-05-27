@@ -1,5 +1,6 @@
 module.exports = {
   ssr: false,
+  target:'static',
     // Add your Nuxt.js configuration options here
     // For example, configure the modules or plugins you want to use
     modules: [
