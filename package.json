@@ -1,8 +1,13 @@
 {
     "name": "my-blog",
     "version": "1.0.0",
+    "private": true,
+    "engineStrict": true,
     "scripts": {
-        "dev": "nuxt dev"
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build --openssl-legacy-provider",
+        "dev": "nuxt dev",
+        "start": "nuxt dev"
     },
     "dependencies": {
         "bootstrap": "^5.2.3",
